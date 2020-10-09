@@ -1,20 +1,32 @@
 <a href="https://hapi.dev"><img src="https://raw.githubusercontent.com/hapijs/assets/master/images/family.png" width="180px" align="right" /></a>
 
-# @hapi/formula
+# fork of [@hapi/formula](https://github.com/sideway</formula) with conversion of the library to be usable with Deno
 
-#### Math and string formula parser.
+## Deno usage with original files
 
-**formula** is part of the **hapi** ecosystem and was designed to work seamlessly with the [hapi web framework](https://hapi.dev) and its other components (but works great on its own or with other frameworks). If you are using a different web framework and find this module useful, check out [hapi](https://hapi.dev) – they work even better together.
+```
+// @deno-types="https://raw.githubusercontent.com/sideway/formula/master/lib/index.d.ts"
+import {Parser} from "https://jspm.dev/@hapi/formula";
+```
 
-### Visit the [hapi.dev](https://hapi.dev) Developer Portal for tutorials, documentation, and support
+### Deno usage with files copied inside this repository
+
+```
+// @deno-types="https://raw.githubusercontent.com/sideway/formula/master/lib/index.d.ts"
+import {Parser} from "https://raw.githubusercontent.com/stefano77it/formula/master/lib/formula-3.0.0.js";
+```
+
+## conversion steps
+
+* converted with https://jspm.org
+* that generated https://jspm.dev/@hapi/formula
+* that pointed to https://jspm.dev/npm:@hapi/formula@3.0.0!cjs
+* that is the file uploaded here (renamed to `formula-3.0.0.js`)
+
 
 ## Useful resources
 
 - [Documentation and API](https://github.com/stefano77it/formula/blob/master/API.md)
-- [Version status](https://hapi.dev/resources/status/#formula) (builds, dependencies, node versions, licenses, eol)
-- [Changelog](https://hapi.dev/family/formula/changelog/)
-- [Project policies](https://hapi.dev/policies/)
-- [Free and commercial support options](https://hapi.dev/support/)
 
 ## Acknowledgements
 
