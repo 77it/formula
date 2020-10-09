@@ -10,7 +10,7 @@
 
 ## Useful resources
 
-- [Documentation and API](https://hapi.dev/family/formula/)
+- [Documentation and API](https://github.com/stefano77it/formula/blob/master/API.md)
 - [Version status](https://hapi.dev/resources/status/#formula) (builds, dependencies, node versions, licenses, eol)
 - [Changelog](https://hapi.dev/family/formula/changelog/)
 - [Project policies](https://hapi.dev/policies/)
