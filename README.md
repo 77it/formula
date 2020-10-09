@@ -12,7 +12,7 @@ import {Parser} from "https://jspm.dev/@hapi/formula";
 ### Deno usage with files copied inside this repository
 
 ```
-// @deno-types="https://raw.githubusercontent.com/sideway/formula/master/lib/index.d.ts"
+// @deno-types="https://raw.githubusercontent.com/stefano77it/formula/master/lib/index.d.ts"
 import {Parser} from "https://raw.githubusercontent.com/stefano77it/formula/master/lib/formula-3.0.0.js";
 ```
 
