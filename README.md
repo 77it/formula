@@ -12,8 +12,8 @@ import {Parser} from "https://jspm.dev/@hapi/formula@3.0.2";
 ### Deno usage with files copied inside this repository
 
 ```
-// @deno-types="https://raw.githubusercontent.com/77it/formula/master/lib/index.d.ts"
-import {Parser} from "https://raw.githubusercontent.com/77it/formula/master/lib/formula.js";
+// @deno-types="https://cdn.jsdelivr.net/gh/77it/formula@3.0.2/lib/index.d.ts"
+import {Parser} from "https://cdn.jsdelivr.net/gh/77it/formula@3.0.2/lib/formula.js";
 ```
 
 ## conversion steps
